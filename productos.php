@@ -52,7 +52,7 @@ $detalles = $sql->fetchAll(PDO::FETCH_ASSOC);
                             <a href="registro_pro.php" class="nav-link active">Agregar productos</a>
                         </li>
                         <li class="nav-item">
-                            <a href="ventas.php" class="nav-link active">Catalogo de ventas</a>
+                            <a href="ventas.php" class="nav-link active">Catalogo de venta</a>
                         </li>
                     </ul>
                     <a href="checkout.php" class="btn btn-primary me-2">Carrito<span id="num_cart" class="badge bg-secondary"><?php echo $num_cart; ?></span>
