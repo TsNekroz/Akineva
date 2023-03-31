@@ -29,7 +29,7 @@ $resultado = $sql->fetchAll(PDO::FETCH_ASSOC);
 <body>
     <!--Barra de navegación-->
     <header>
-        <div class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="navbar navbar-expand-lg navbar-dark bg-black">
             <div class="container">
                 <a href="index.php" class="navbar-brand">
                     <strong>Akineva</strong>
@@ -70,7 +70,7 @@ $resultado = $sql->fetchAll(PDO::FETCH_ASSOC);
                 <?php foreach ($resultado as $row) {  ?>
                     <div class="col">
                         <div class="card shadow-sm">
-                            <img src="img/<?php echo $row['image']; ?>" alt="<?php echo $row['image']; ?>" class="d-block w-100">
+                        <img src="img/<?php echo $row['image']; ?>" alt="<?php echo $row['image']; ?>" class="card-img-top">
                             <div class="card-body">
                                 <h5 class="card-title"><?php echo $row['name_product']; ?></h5>
                                 <p class="card-text">$ <?php echo $row['price']; ?></p>
