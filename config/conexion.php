@@ -4,8 +4,8 @@ class database
 {
  private $hostname = "127.0.0.1";
  private $database = "akineva";
- private $username = "gestor";
- private $password = "123456";
+ private $username = "root";
+ private $password = "admin";
  private $charset = "utf8";
 
 
